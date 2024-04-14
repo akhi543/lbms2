@@ -1,0 +1,105 @@
+.background {
+    background-color: #DADFE7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.list-background {
+    background-color: #DADFE7;
+    height: 100vh;
+}
+
+.white-text {
+    color: white;
+}
+
+.home-background {
+  background-image: url('../lib.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #0560A2;
+}
+
+.navbar-brand {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-item .nav-link{
+    float: right;
+    color: white;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background: #000000;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+}  
+
+.book-card {
+    width: 250px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px 8px;
+}
+
+.book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.author {
+    font-size: 14px;
+    color: #777;
+}
+
+.request-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.request-button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    height: 100px;
+    background-color: #C3C6C9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
